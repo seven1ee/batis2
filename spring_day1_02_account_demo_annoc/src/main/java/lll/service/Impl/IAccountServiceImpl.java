@@ -4,16 +4,19 @@ import lll.dao.IAccountDao;
 import lll.dao.Impl.AccountDaoImpl;
 import lll.domain.Account;
 import lll.service.IAccountService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+//@Component("accountService")  需要改getbean
+//@Component()
+@Service
 public class IAccountServiceImpl implements IAccountService {
 
+    @Autowired
     private IAccountDao accountDao;
-
-    public void setAccountDao(AccountDaoImpl accountDao) {
-        this.accountDao=accountDao;
-    }
 
     @Override
     public List<Account> findAllAcount() {
