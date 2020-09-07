@@ -7,6 +7,7 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
 
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
@@ -22,15 +23,19 @@ public class JdbcConfig
 
     @Value("${jdbc.Driver}")
     private  String driver;
+    @Value("${jdbc.url}")
     private  String url;
+    @Value("${jdbc.username}")
     private  String username;
+    @Value("${jdbc.password}")
     private  String password;
 
 
     //配置QueryRunner
     //todo
 
-    @Bean()
+    @Bean(name="runner")
+    @Scope("prototype")  //修改成单例
     public QueryRunner createQueryRunner(@Qualifier("ds1") DataSource dataSource){  //Qualifier和AutoWired一样
         return new QueryRunner(dataSource);
     }
@@ -55,7 +60,7 @@ public class JdbcConfig
         try {
             ComboPooledDataSource ds = new ComboPooledDataSource();
             ds.setDriverClass(driver);
-            ds.setJdbcUrl(url);
+            ds.setJdbcUrl("jdbc:mysql://localhost:3306/xx");
             ds.setUser(username);
             ds.setPassword(password);
             return ds;

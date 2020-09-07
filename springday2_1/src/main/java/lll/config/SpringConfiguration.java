@@ -2,6 +2,8 @@ package lll.config;
 
 
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.PropertySource;
 
 
 //spring 全注解配置
@@ -12,8 +14,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 //@ComponentScan(basePackages = "lll")
 //@ComponentScan({"lll"})
-@ComponentScan("lll")               //只有一个
+@ComponentScan("lll")  //只有一个basePackages时使用""
+@Import(JdbcConfig.class)
+@PropertySource("classpath:jdbcConfig.properties")
 public class SpringConfiguration {
-
 
 }
