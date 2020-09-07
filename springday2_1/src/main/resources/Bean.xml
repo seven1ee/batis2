@@ -5,9 +5,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="lll">
-
-    </context:component-scan>
 
     <!--    配置qr  （quetyrunner）-->
     <bean id="runner" class="org.apache.commons.dbutils.QueryRunner">
@@ -22,6 +19,5 @@
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/xx"></property>
         <property name="user" value="root"></property>
         <property name="password" value="root"></property>
-
     </bean>
 </beans>

@@ -3,7 +3,6 @@ package lll.test;
 import lll.domain.Account;
 import lll.service.IAccountService;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,7 +11,7 @@ import java.util.List;
 public class Testdd {
 
     ApplicationContext ac= new ClassPathXmlApplicationContext("Bean.xml");
-    IAccountService as= ac.getBean("accountServiceImpl", IAccountService.class);   //s可以写Impl对应的小写 Impl注解为空
+    IAccountService as= ac.getBean("IAccountServiceImpl", IAccountService.class);   //s可以写Impl对应的小写 Impl注解为空
     @Test
     public  void testFindAll(){
 

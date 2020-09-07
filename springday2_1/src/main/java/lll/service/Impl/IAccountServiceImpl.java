@@ -12,6 +12,7 @@ import java.util.List;
 
 //@Component("accountService")  需要改getbean
 //@Component()
+
 @Service
 public class IAccountServiceImpl implements IAccountService {
 

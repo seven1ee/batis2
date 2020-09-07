@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2521ded9-bfb5-4249-9817-94b2c2612363" name="Default Changelist" comment="" />
+    <list default="true" id="7396d3e4-1447-45c7-a1b7-776435514fae" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -17,7 +24,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1h8vFW1FcykwNU0nXuc7S87mEqM" />
+  <component name="ProjectId" id="1hAInpeH0EEgo8mTVCGQ2cIBgXK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,14 +35,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s\Documents\GitHub\batis2\springday2_1\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lll.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s\Documents\GitHub\batis2\springday2_1\src\main\resources" />
+      <recent name="C:\Users\s\Documents\GitHub\batis2\springday2_1\src\main\java" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Testdd.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day1_02_account_demo_annoc" />
+      <module name="springday2_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lll.test.*" />
@@ -73,15 +93,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2521ded9-bfb5-4249-9817-94b2c2612363" name="Default Changelist" comment="" />
-      <created>1599405429226</created>
+      <changelist id="7396d3e4-1447-45c7-a1b7-776435514fae" name="Default Changelist" comment="" />
+      <created>1599447639478</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599405429226</updated>
-      <workItem from="1599405437579" duration="2838000" />
-      <workItem from="1599435133896" duration="3865000" />
-      <workItem from="1599447726604" duration="239000" />
-      <workItem from="1599451815201" duration="296000" />
+      <updated>1599447639478</updated>
+      <workItem from="1599447658298" duration="4111000" />
     </task>
     <servers />
   </component>
@@ -89,37 +106,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Inspections" timestamp="1599447682869">
+    <state x="361" y="71" key="#Notifications" timestamp="1599448026712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1599447682869" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599452110568">
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1599448026712" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1599448888199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599452110568" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599452110567">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599448888199" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599448517792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599452110567" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599452110567">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599452110567" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599452110567">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599452110567" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1599451991214">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599451991214" />
-    <state x="178" y="107" key="new project wizard" timestamp="1599447638954">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599447638954" />
-    <state x="397" y="95" key="spring file set editor" timestamp="1599447691839">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="397" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1599447691839" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599448517792" />
   </component>
 </project>
