@@ -13,4 +13,16 @@ public class HelloController {
         System.out.println("HelloController");
         return "success";
     }
+
+    @RequestMapping("/hello2")          //不写时默认为value
+    public String sayHello2(){
+        System.out.println("HelloController2");
+        return "success";
+    }
+
+    @RequestMapping(value = "/testRequestMapping",params = {"username=hehe"},headers = "Accept")
+    public String testRequestMapping(){
+        System.out.println("testRequestMapping");
+        return "success";
+    }
 }
