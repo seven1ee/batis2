@@ -24,6 +24,7 @@
 
 
     <!--&lt;!&ndash;        查询所有&ndash;&gt;-->
+    <!--    不对应时使用别名 as-->
     <!--        <select id="findAll" resultType="lll.domain.User">-->
     <!--            select id as userId, username as userName, sex as userSex , birthday as userBirthday, address as userAddress from  user-->
     <!--        </select>-->
