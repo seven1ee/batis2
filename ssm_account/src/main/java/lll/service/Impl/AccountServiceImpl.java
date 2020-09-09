@@ -24,4 +24,10 @@ public class AccountServiceImpl implements AccountService {
         System.out.println("业务层查询所有账户");
         return accountDao.findAll();
     }
+
+    @Override
+    public void saveAccount(Account account) {
+        System.out.println("添加用户");
+        accountDao.saveAccount(account);
+    }
 }

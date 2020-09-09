@@ -14,4 +14,6 @@ public interface IAccountDao {
     @Select("select * from account")
     public List<Account> findAll();
 
+    @Select("insert into account(name,money) values(#{name},#{money})")
+    public void saveAccount(Account account);
 }

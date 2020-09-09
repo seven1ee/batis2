@@ -14,7 +14,6 @@
 <body>
 <h4>查询所有</h4>
 <c:forEach items="${list}" var="account">
-
     ${account.name}<br>
     ${account}<br>
 </c:forEach>
