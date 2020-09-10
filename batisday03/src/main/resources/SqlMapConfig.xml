@@ -5,6 +5,7 @@
 <!-- mybatis的主配置文件 -->
 <configuration>
     <properties url="file:///C:/Users/s/Documents/GitHub/batis2/batisday03/src/main/resources/jdbcConfig.properties"></properties>
+<!--    起别名-->
     <typeAliases>
         <package name="lll.domain"/>
     </typeAliases>
